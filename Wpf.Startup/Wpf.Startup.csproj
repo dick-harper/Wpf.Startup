@@ -6,4 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MyResources\Wpf.Startup.Resources.csproj" />
+  </ItemGroup>
+
 </Project>

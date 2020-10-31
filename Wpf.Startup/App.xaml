@@ -4,6 +4,17 @@
              xmlns:local="clr-namespace:Wpf.Startup"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
-    </Application.Resources>
+        <!--<Style TargetType="TextBlock">
+           <Setter Property="FontFamily" Value="Verdana"/>
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+        <Style TargetType="TextBlock" x:Key="fancyTextBlock">
+            <Setter Property="Background" Value="MediumPurple"/>
+            <Setter Property="FontFamily" Value="Bell MT"/>
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="Foreground" Value="LawnGreen" />
+            <Setter Property="Margin" Value="2" />
+            <Setter Property="Padding" Value="10" />
+        </Style>-->
+</Application.Resources>
 </Application>

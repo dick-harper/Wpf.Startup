@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf.Startup", "Wpf.Startup\Wpf.Startup.csproj", "{A08946A4-C552-4613-B1EB-EC28222BA761}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf.Startup", "Wpf.Startup\Wpf.Startup.csproj", "{A08946A4-C552-4613-B1EB-EC28222BA761}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf.Startup.Resources", "MyResources\Wpf.Startup.Resources.csproj", "{60EB73CA-352F-4570-976F-46D540E46BDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A08946A4-C552-4613-B1EB-EC28222BA761}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A08946A4-C552-4613-B1EB-EC28222BA761}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A08946A4-C552-4613-B1EB-EC28222BA761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60EB73CA-352F-4570-976F-46D540E46BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60EB73CA-352F-4570-976F-46D540E46BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60EB73CA-352F-4570-976F-46D540E46BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60EB73CA-352F-4570-976F-46D540E46BDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

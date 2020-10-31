@@ -6,7 +6,31 @@
         xmlns:local="clr-namespace:Wpf.Startup"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
 
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Wpf.Startup.Resources;component/MyStyles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="1" Grid.Row="0" Text="Testing TextBlock"/>
+        <!--<TextBlock Grid.Column="1" Grid.Row="1" Text="So Fancy" Style="{StaticResource fancyTextBlock}"/>-->
+        <StackPanel Grid.Column="1" Grid.Row="2" Orientation="Horizontal">
+        <Button Content="Go One"/>
+        <Button Content="Go Two" Style="{StaticResource Demo1}"/>
+        </StackPanel>
     </Grid>
 </Window>
